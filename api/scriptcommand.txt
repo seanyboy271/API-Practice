@@ -1,0 +1,1 @@
+python discover_topics_UMAP_Kmeans.py -i filelist.txt -c 2019.03.12_SEED_TOPICS_AMY\FILELIST.txt -g testCorpus.txt -o ./results --include_input_in_tfidf -v svd -w 6 -p TODAY2_UMAP_TESTING_LocalTFIDF_SVD_w6_d10 -t 8 -d 10 -u 15 -m cosine
