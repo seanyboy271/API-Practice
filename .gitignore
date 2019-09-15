@@ -1,5 +1,6 @@
 api/results
 api/2019.03.12_SEED_TOPICS_AMY
 api/data
-api/testCorpus
-api/filelist
+api/testCorpus.txt
+api/filelist.txt
+api/discover_topics_UMAP_Kmeans.py
