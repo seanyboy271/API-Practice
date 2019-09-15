@@ -25,4 +25,8 @@ def runScript():
     text = file.read()
     return text
 
+@app.route("/NoQString/<num>", methods=["GET"])
+def add(num):
+    return "The answer to " + str(num) + " + 1 is " + str(int(num)+1)
+
 app.run()
